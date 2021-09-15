@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Decimal to Binary",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testDecimalToBinary",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Binary to Decimal",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testBinaryToDecimal",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
